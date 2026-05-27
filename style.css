@@ -834,3 +834,67 @@ footer{
 .next{
   right: 10px;
 }
+/* =========================
+   BARRA DE TÓPICOS
+========================= */
+
+.barra-topicos{
+    width: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #000000,
+        #7d7d7d,
+        #ffffff,
+        #7b2cbf
+    );
+
+    padding: 16px 20px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 999;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,0.25);
+}
+
+.barra-topicos ul{
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.barra-topicos a{
+    text-decoration: none;
+
+    color: #111;
+
+    font-weight: 700;
+
+    font-size: 15px;
+
+    background: rgba(255,255,255,0.65);
+
+    padding: 8px 16px;
+
+    border-radius: 30px;
+
+    transition: 0.3s;
+}
+
+.barra-topicos a:hover{
+    background: white;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 12px rgba(123,44,191,0.4);
+}
